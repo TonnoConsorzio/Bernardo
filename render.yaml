@@ -7,13 +7,11 @@ services:
     plan: free 
     region: frankfurt
     envVars:
-      # Sets a hardcoded value
-      # (DO NOT hardcode secrets in your Blueprint file!)
       - key: PORT
         value: 8080
-      # Prompts for a value in the Render Dashboard on creation
-      # (useful for secrets)
       - key: TMDB_KEY
         sync: false
       - key: PROXY
         sync: false
+      - key: PROXY_CREDENTIALS
+        value: '[{"proxy": "http://lmtokumm-rotate:5xehmu0hve87@p.webshare.io:80/"}]'
