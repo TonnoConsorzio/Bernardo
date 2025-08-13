@@ -11,5 +11,5 @@ services:
         value: 8080
       - key: TMDB_KEY
         sync: false
-      - key: PROXY_CREDENTIALS
+      - key: PROXY
         sync: false
