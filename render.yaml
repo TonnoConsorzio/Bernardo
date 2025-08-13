@@ -13,5 +13,3 @@ services:
         sync: false
       - key: PROXY
         sync: false
-      - key: PROXY_CREDENTIALS
-        value: '[{"proxy": "http://lmtokumm-rotate:5xehmu0hve87@p.webshare.io:80/"}]'
